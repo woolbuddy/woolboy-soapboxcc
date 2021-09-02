@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Smoke Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utils.SuiteListener"/>
+  </listeners>
+  <test thread-count="5" name="Smoke Test Automation(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="tests.ContactBubbleTest">
+        <methods>
+          <include name="afterMethodMethod"/>
+          <include name="completeContactBubbleForm"/>
+          <include name="beforeMethodMethod"/>
+          <include name="afterTestMethod"/>
+          <include name="beforeTestMethod"/>
+        </methods>
+      </class> <!-- tests.ContactBubbleTest -->
+    </classes>
+  </test> <!-- Smoke Test Automation(failed) -->
+</suite> <!-- Failed suite [Login Smoke Suite] -->

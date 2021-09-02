@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Smoke Suite">
+	<listeners>
+		<listener class-name="utils.SuiteListener"/>
+	</listeners>
+	<test name="Smoke Test Automation">
+		<parameter name="browserName" value="chrome" />
+		<classes>
+			<!-- <class name="tests.LoginTest"/>
+			<class name="tests.FreeVersionTest"/>
+			<class name="tests.ContactBubbleTest"/>
+			<class name="tests.WatchDemoTest"/> -->
+			<class name="tests.PricingRequestTest"/>
+		</classes>
+	</test>
+</suite>
