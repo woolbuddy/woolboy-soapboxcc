@@ -7,10 +7,10 @@
 	<test name="Smoke Test Automation">
 		<parameter name="browserName" value="chrome" />
 		<classes>
-			<!-- <class name="tests.LoginTest"/>
+			<class name="tests.LoginTest"/>
 			<class name="tests.FreeVersionTest"/>
 			<class name="tests.ContactBubbleTest"/>
-			<class name="tests.WatchDemoTest"/> -->
+			<class name="tests.WatchDemoTest"/>
 			<class name="tests.PricingRequestTest"/>
 		</classes>
 	</test>
