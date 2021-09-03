@@ -8,7 +8,7 @@ There are 5 fully automated tests included in this framework that I would consid
 ### Automatic Retry on Failure
 There is a retry analyzer built in to retry a failing test before moving on to the next test.
 ### Reporting and Screenshots
-Upon completion of the test suite running, an HTML report will be generated and populated in the 'reports' folder. Any failing tests will generate a screenshot and populated in the 'screenshots' folder.
+Upon completion of the test suite running, an HTML report will be generated and populated in the 'reports' folder. Any failed tests will generate a screenshot and populate in the 'screenshots' folder.
 
 ## Getting Started
 ### Dependencies
