@@ -31,3 +31,8 @@ If you are using Eclipse, opening the file will automatically open the html in a
 
 ### Viewing the Screenshots
 You should be able to view the screenshot captured during a failed test by opening the .png file in the 'screenshots' folder.
+
+## ToDo List
+* Fix failing test (ContactBubbleTest.java)
+* Find any common elements and events and implement code to allow them to be used across multiple tests.
+* Create a Dockerfile
