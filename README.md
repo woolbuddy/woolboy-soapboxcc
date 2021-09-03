@@ -22,3 +22,12 @@ Upon completion of the test suite running, an HTML report will be generated and 
 
 ## Reading Test Results
 ### Command Line Test Results
+![Alt text](https://i.ibb.co/zXNX2Wh/Automation-Report-html-woolboyframework.png?raw=true)
+
+### Viewing the Report HTML
+If you are using Eclipse, opening the file will automatically open the html in a browser locally. If you are not using Eclipse, use the following steps to view the report.
+1. Navigate to the project from your command line
+2. Run `open -a "Google Chrome" reports/AutomationReport.html`
+
+### Viewing the Screenshots
+You should be able to view the screenshot captured during a failed test by opening the .png file in the 'screenshots' folder.
