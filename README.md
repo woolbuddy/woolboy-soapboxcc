@@ -12,8 +12,8 @@ Upon completion of the test suite running, an HTML report will be generated and 
 
 ## Getting Started
 ### Dependencies
-* Java
-* Maven
+* Java (Versions Used - JDK: 15.0.2 / Java: 16.0.2)
+* Maven (Version Used: 3.8.2)
 ### Installing & Running Tests
 1. Clone this project locally
 2. Navigate to project from your command line
@@ -35,4 +35,5 @@ You should be able to view the screenshot captured during a failed test by openi
 ## ToDo List
 * Fix failing test (ContactBubbleTest.java)
 * Find any common elements and events and implement code to allow them to be used across multiple tests.
+* Implement Selenium Visual Diff
 * Create a Dockerfile
